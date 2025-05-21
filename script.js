@@ -1,2 +1,2 @@
-const data = prompt("Digite um texto", "");
+const data = prompt("Digite um texto", "") ?? "";
 document.querySelector("#text").textContent = data;

@@ -1,0 +1,12 @@
+body {
+	padding: 8px;
+	text-align: justify;
+	background-color: black;
+	color: white;
+}
+
+body > div > p {
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}

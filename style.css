@@ -20,6 +20,10 @@ div > p {
 	font-weight: bold;
 }
 
+a[data-order-externalurl="true"] {
+	color: orange;
+}
+
 footer {
 	text-align: left;
 	font-style: italic;

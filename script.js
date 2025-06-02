@@ -1,8 +1,14 @@
-const URLs = document.querySelectorAll("a[href]");
+(async () => {
+	const response = await fetch(`https://
+		resources.whatwg.org/logo-fetch.svg`);
 
-for (const url of URLs) {
-	const href = url.getAttribute("href");
-	if (!href.includes("://") || href.includes("internal.com")) continue;
+	const blob = await response.blob(); // download as Blob object
 
-	url.setAttribute("data-order-externalurl", "true");
-}
+	// create <img> for it
+	const img = document.createElement("img");
+	img.style = "top:10px;left:10px;width:100px";
+	main.append(img);
+
+	// show it
+	img.src = URL.createObjectURL(blob);
+})();

@@ -5,23 +5,28 @@ body {
 	margin: 0;
 	padding: 1rem;
 
-	text-align: justify;
 	background-color: black;
 	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  	text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
 }
 
 main {
-	flex: 1;
+  flex: 1;
 }
 
-div > p {
-	color: red;
-	font-style: italic;
-	font-weight: bold;
-}
-
-a[data-order-externalurl="true"] {
-	color: orange;
+.content {
+  width: 50%;
+  position: relative;
+  text-align: justify;
 }
 
 footer {

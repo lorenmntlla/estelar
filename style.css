@@ -10,12 +10,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	margin: 0;
-	padding: 1rem;
+}
 
-	background-color: black;
-	color: white;
-	font-family: "Jetbrains Mono", monospace;
 }
 
 header {
@@ -32,6 +28,7 @@ main {
 }
 
 .content {
+	padding: 1rem;
 	text-align: justify;
 	margin-inline: .25rem;
 }

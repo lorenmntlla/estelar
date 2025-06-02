@@ -27,6 +27,7 @@ main {
 	width: 50%;
 	position: relative;
 	text-align: justify;
+	margin-inline: .25rem;
 }
 
 footer {

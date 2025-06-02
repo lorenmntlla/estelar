@@ -11,22 +11,22 @@ body {
 }
 
 header {
-  	text-align: center;
+	text-align: center;
 }
 
 .flex {
-  display: flex;
-  align-content: center;
+	display: flex;
+	align-content: center;
 }
 
 main {
-  flex: 1;
+	flex: 1;
 }
 
 .content {
-  width: 50%;
-  position: relative;
-  text-align: justify;
+	width: 50%;
+	position: relative;
+	text-align: justify;
 }
 
 footer {

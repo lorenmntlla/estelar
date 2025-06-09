@@ -36,6 +36,10 @@ main {
 	margin-inline: .25rem;
 }
 
+.content h1 {
+	border-bottom: 0.1em solid #2ba46d;
+}
+
 footer {
 	text-align: left;
 	font-style: italic;

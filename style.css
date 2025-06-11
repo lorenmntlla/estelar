@@ -23,7 +23,6 @@ header {
 
 .flex {
 	display: flex;
-	align-content: center;
 }
 
 main {
